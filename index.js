@@ -2,4 +2,4 @@ function saludar(nombre) {
   return `Hola, ${nombre}`;
 }
 
-console.log(saludar('ProyectoGenSoft'));
+saludar('ProyectoGenSoft');

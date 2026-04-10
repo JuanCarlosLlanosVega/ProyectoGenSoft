@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend - ProyectoGenSoft</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="contenedor">
+      <h1>Registro de Profesor y Participantes</h1>
+
+      <form id="registroForm">
+        <label for="docenteNombre">Nombre completo del docente</label>
+        <input id="docenteNombre" type="text" required />
+
+        <label for="docenteCorreo">Correo electrónico</label>
+        <input id="docenteCorreo" type="email" required />
+
+        <label for="institucionNombre">Institución</label>
+        <input id="institucionNombre" type="text" required />
+        <button type="submit">Registrar</button>
+    </form>
+
+    <div id="resultado"></div>
+  </div>
+
+  <script type="module" src="./script.js"></script>
+</body>
+</html>
